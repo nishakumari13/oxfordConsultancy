@@ -1,0 +1,40 @@
+.counter{
+    font-size: 2rem;
+    font-weight: 600;
+    color:#0a2b1e;
+}
+.counter_title{
+    font-size: 1rem;
+    font-weight: 500;
+    color:#0a2b1e;
+}
+.about_content{
+    padding-left: 50px;
+}
+.text-msg{
+    font-size: 12px;
+    color: #596b65;
+}
+.container{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    
+}
+@media screen and (max-width: 599px) {
+    .container{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        
+    }  
+    .about_content{
+        padding-left: 0px;
+        padding-top:2rem;
+    } 
+}
+@media screen and (max-width: 1019px) {
+    .container{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        
+    }   
+}
